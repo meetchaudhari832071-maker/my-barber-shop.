@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>ROYAL CUT SALON</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- HEAVY FONT FOR NAME -->
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700;900&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+
+<style>
+body{
+    margin:0;
+    background:#080808;
+    color:#fff;
+    font-family:'Poppins',sans-serif;
+}
+
+/* HERO */
+.hero{
+    height:120vh;
+    background:
+    linear-gradient(rgba(0,0,0,.85),rgba(0,0,0,.85)),
+    url("https://images.unsplash.com/photo-1599351431202-1e0f0137899a");
+    background-size:cover;
+    background-position:center;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+}
+
+.hero img{
+    width:160px;
+    margin-bottom:30px;
+}
+
+.hero h1{
+    font-family:'Cinzel',serif;
+    font-size:5rem;
+    letter-spacing:6px;
+    color:gold;
+}
+
+.hero h2{
+    font-size:1.6rem;
+    color:#ccc;
+    letter-spacing:2px;
+}
+
+/* SECTION */
+section{
+    padding:120px 30px;
+    max-width:1400px;
+    margin:auto;
+}
+
+.title{
+    font-family:'Cinzel',serif;
+    font-size:3.2rem;
+    text-align:center;
+    margin-bottom:70px;
+    color:gold;
+    letter-spacing:3px;
+}
+
+/* ABOUT */
+.about{
+    text-align:center;
+    font-size:1.2rem;
+    line-height:2;
+    color:#bbb;
+    max-width:900px;
+    margin:auto;
+}
+
+/* SERVICES */
+.services{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+    gap:40px;
+}
+
+.service{
+    background:#111;
+    padding:45px;
+    border-radius:20px;
+    border:1px solid rgba(255,215,0,.15);
+}
+
+.service h3{
+    font-size:1.8rem;
+    color:gold;
+    margin-bottom:15px;
+}
+
+.service p{
+    color:#aaa;
+    font-size:1.05rem;
+}
+
+.price{
+    font-size:1.6rem;
+    margin-top:15px;
+    color:#00ffd5;
+}
+
+/* GALLERY */
+.gallery{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(350px,1fr));
+    gap:35px;
+}
+
+.gallery img{
+    width:100%;
+    height:320px;
+    object-fit:cover;
+    border-radius:25px;
+    transition:.4s;
+}
+
+.gallery img:hover{
+    transform:scale(1.06);
+}
+
+/* WHY */
+.why{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    gap:40px;
+}
+
+.why div{
+    background:#111;
+    padding:40px;
+    border-radius:20px;
+    text-align:center;
+}
+
+.why h3{
+    font-size:1.7rem;
+    color:gold;
+}
+
+/* FOOTER */
+footer{
+    background:#040404;
+    padding:80px 20px;
+    text-align:center;
+}
+
+footer p{
+    font-size:1.1rem;
+    color:#bbb;
+    margin:12px 0;
+}
+
+footer a{
+    color:gold;
+    text-decoration:none;
+    font-weight:600;
+}
+</style>
+</head>
+
+<body>
+
+<!-- HERO -->
+<div class="hero">
+    <div>
+        <img src="">
+        <h1>ROYAL CUT</h1>
+        <h2>PREMIUM BARBER & SALON</h2>
+    </div>
+</div>
+
+<!-- ABOUT -->
+<section>
+    <div class="title">ABOUT OUR SALON</div>
+    <p class="about">
+        Royal Cut Salon is a luxury grooming destination for modern men.
+        We specialize in premium haircuts, beard styling, hair wash, facial
+        treatments and complete grooming solutions in a clean, classy and
+        professional environment.
+    </p>
+</section>
+
+<!-- SERVICES -->
+<section>
+    <div class="title">SERVICES & PRICES</div>
+    <div class="services">
+        <div class="service">
+            <h3>Hair Cut</h3>
+            <p>Modern & classic styles by expert barbers</p>
+            <div class="price">₹150</div>
+        </div>
+        <div class="service">
+            <h3>Hair Wash</h3>
+            <p>Premium shampoo & conditioning</p>
+            <div class="price">₹100</div>
+        </div>
+        <div class="service">
+            <h3>Beard Styling</h3>
+            <p>Perfect beard trim & shape</p>
+            <div class="price">₹80</div>
+        </div>
+        <div class="service">
+            <h3>Hair + Beard</h3>
+            <p>Complete grooming package</p>
+            <div class="price">₹220</div>
+        </div>
+        <div class="service">
+            <h3>Facial</h3>
+            <p>Skin glow & care treatment</p>
+            <div class="price">₹400</div>
+        </div>
+        <div class="service">
+            <h3>Head Massage</h3>
+            <p>Relaxing oil massage</p>
+            <div class="price">₹200</div>
+        </div>
+    </div>
+</section>
+
+<!-- GALLERY -->
+<section>
+    <div class="title">SALON GALLERY</div>
+    <div class="gallery">
+        <img src="salon 1.jpg">
+        <img src="salon3.jpg">
+        <img src="salon 4.jpg">
+        <img src="saln 5.jpg">
+    </div>
+</section>
+
+<!-- WHY -->
+<section>
+    <div class="title">WHY CHOOSE US</div>
+    <div class="why">
+        <div>
+            <h3>Luxury Experience</h3>
+            <p>Premium environment & service</p>
+        </div>
+        <div>
+            <h3>Expert Barbers</h3>
+            <p>Trained & experienced professionals</p>
+        </div>
+        <div>
+            <h3>Hygiene First</h3>
+            <p>Clean tools & safe grooming</p>
+        </div>
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+    <p>📞 +91 8320719130</p>
+    <p>📸 Instagram: <a href="#">@___.meetx3</a></p>
+    <p>📍 vyara, Gujarat</p>
+    <p>© 2025 ROYAL CUT</p>
+</footer>
+
+</body>
+</html>
